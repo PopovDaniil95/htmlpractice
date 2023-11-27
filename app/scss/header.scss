@@ -1,0 +1,17 @@
+.header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: #fff;
+}
+
+.header__logo {
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.header__logo-title {
+  font-size: 20px;
+  font-weight: 700;
+}
