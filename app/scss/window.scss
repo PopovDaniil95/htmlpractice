@@ -1,0 +1,53 @@
+.window {
+  background: #dfe2e4;
+  flex: 1;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.window__header {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 21px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.window__header-icon {
+  position: absolute;
+  left: 21px;
+}
+
+.window__header-website-wrap {
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 6px 140px;
+  border-radius: 6px;
+}
+
+.window__header-website-title {
+  font-size: 13px;
+  color: #4c4c4c;
+  font-family: "SF Pro Text";
+  letter-spacing: -0.052px;
+}
+
+.window__title {
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 84px;
+  padding: 32px 16px;
+  background: #fff;
+}
+
+.window__content {
+  margin: 20px 16px;
+  padding: 16px;
+  background: #fff;
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.237px;
+  border-radius: 12px;
+}

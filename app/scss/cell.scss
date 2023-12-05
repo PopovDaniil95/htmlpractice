@@ -1,0 +1,31 @@
+.cell {
+  width: 100%;
+  background: #fff;
+  padding: 20px 16px;
+  gap: 20px;
+  border-radius: 12px;
+}
+
+.cell__lable {
+  background: #181b26;
+  border-radius: 6px;
+  width: 100%;
+  padding: 7px 16px;
+  margin-bottom: 20px;
+}
+
+.cell__lable-sym {
+  font-family: "Anonymous Pro";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -1.14px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.cell__table {
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}

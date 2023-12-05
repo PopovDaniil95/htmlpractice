@@ -32,30 +32,9 @@
   max-height: 500px;
   background: #4946b6;
   overflow-y: scroll;
-  display: grid;
+  display: none;
   padding: 16px;
   grid-template-columns: repeat(3, auto);
   gap: 16px;
   border-radius: 0 0 8px 8px;
-}
-
-.search__table-item {
-  cursor: pointer;
-  background: #e7f4f8;
-  height: 40px;
-  border-radius: 8px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 16px;
-  transition: background 0.3s;
-}
-
-.search__table-item:hover {
-  background: #b0e5f5;
-  transition: background 0.3s;
-}
-
-.search__table-item:active {
-  background: #339cd8;
-  transition: background 0.3s;
 }

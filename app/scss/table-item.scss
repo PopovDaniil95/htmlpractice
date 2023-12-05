@@ -1,0 +1,24 @@
+.table-item {
+  cursor: pointer;
+  background: #e7f4f8;
+  height: 40px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  transition: background 0.3s;
+}
+
+.table-item:hover {
+  background: #b0e5f5;
+  transition: background 0.3s;
+}
+
+.table-item:active {
+  background: #339cd8;
+  transition: background 0.3s;
+}
+
+.table-item_main {
+  gap: 15px;
+}

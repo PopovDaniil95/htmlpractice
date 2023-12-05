@@ -1,5 +1,6 @@
 @import url(../fonts/Anonymous_Pro/stylesheet.css);
 @import url(../fonts/Arial/stylesheet.css);
+@import url(../fonts/SF_pro/stylesheet.css);
 
 * {
   padding: 0;
@@ -33,6 +34,16 @@ li {
 }
 
 .container {
-  max-width: 1368px;
+  max-width: 1400px;
   margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gap {
+  gap: 20px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
 }

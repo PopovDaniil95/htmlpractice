@@ -1,0 +1,28 @@
+.footer {
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__logo {
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.footer__logo-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.privacy-policy {
+  color: #bdbdbd;
+  transition: color 0.3s;
+}
+
+.privacy-policy:hover {
+  color: #000;
+  transition: color 0.3s;
+}
