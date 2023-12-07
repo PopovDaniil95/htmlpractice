@@ -26,3 +26,19 @@
   color: #000;
   transition: color 0.3s;
 }
+
+@media (max-width: 1060px) {
+  .menu_footer.flex {
+    ul {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .footer.flex {
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+  }
+}

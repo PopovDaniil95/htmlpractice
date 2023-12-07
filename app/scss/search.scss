@@ -7,7 +7,7 @@
 
 .search__input {
   padding: 23px 15px;
-  width: 542px;
+  width: 38vw;
   background: #f6f6f6;
   border: 1px solid #dfe2e4;
   border-radius: 8px;
@@ -37,4 +37,20 @@
   grid-template-columns: repeat(3, auto);
   gap: 16px;
   border-radius: 0 0 8px 8px;
+  z-index: 10;
+}
+
+@media (max-width: 700px) {
+  .search__wrapper {
+    width: 100%;
+  }
+  .search__input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .search__table {
+    grid-template-columns: repeat(2, auto);
+  }
 }

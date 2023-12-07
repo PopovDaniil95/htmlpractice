@@ -45,5 +45,5 @@ li {
 }
 
 .mb-80 {
-  margin-bottom: 80px;
+  margin-bottom: clamp(40px, 4vw + 1rem, 80px);
 }

@@ -29,3 +29,16 @@
   width: 100%;
   gap: 20px;
 }
+
+@media (max-width: 700px) {
+  .cell__table.flex {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (max-width: 550px) {
+  .cell__table.flex {
+    grid-template-columns: repeat(2, auto);
+  }
+}

@@ -1,16 +1,25 @@
 .manual {
   background: #fff;
-  margin-bottom: 80px;
+  margin-bottom: clamp(40px, 4vw + 1rem, 80px);
 }
 .manual__wrapper {
-  padding: 80px 0;
+  padding: clamp(40px, 4vw + 1rem, 80px);
   align-items: center;
   justify-content: space-between;
 }
 
 .manual__title {
   font-family: "Anonymous Pro";
-  font-size: 64px;
+  font-size: clamp(32px, 4vw + 0.8rem, 64px);
   letter-spacing: -1.92px;
   font-weight: 700;
+  text-wrap: nowrap;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .manual__wrapper.flex {
+    flex-direction: column;
+    gap: 40px;
+  }
 }

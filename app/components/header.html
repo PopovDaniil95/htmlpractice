@@ -7,15 +7,26 @@
     />
     <div class="header__logo-title">htmlpractice</div>
   </a>
-  <nav class="menu flex">
-    <ul>
+  <nav class="menu menu_header flex">
+    <ul id="menu-list-id">
       <li><a href="#">Справочник по HTML</a></li>
       <li><a href="#">Справочник по CSS</a></li>
       <li><a href="#">Закрепить навыки</a></li>
+      <button class="btn-main btn-main_mobile">
+        <div class="btn__title">Макеты для тренировки</div>
+        <img class="btn__img" src="../images/btn-img/btn-main-img.svg" alt="" />
+      </button>
     </ul>
   </nav>
-  <button class="btn-main">
+  <button class="btn-main btn-main_desktop">
     <div class="btn__title">Макеты для тренировки</div>
     <img class="btn__img" src="../images/btn-img/btn-main-img.svg" alt="" />
+  </button>
+  <button class="menu__btn-drop-down">
+    <div id="drop-down-open-id">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </button>
 </header>

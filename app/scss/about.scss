@@ -1,14 +1,24 @@
 .about {
   background: #181b26;
-  padding: 100px;
+  padding: clamp(40px, -0.121rem + 7.28vw, 100px)
+    clamp(16px, -2.67rem + 10.19vw, 100px);
   gap: 50px;
 }
 
 .about__img-wrap {
   width: 317px;
+  height: 100%;
 }
 
 .about__img {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .about.flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
 }

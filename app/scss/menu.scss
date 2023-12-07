@@ -7,6 +7,9 @@
     li {
       position: relative;
       font-size: 17px;
+      a {
+        font-size: 16px;
+      }
     }
     li:after {
       display: block;
@@ -21,6 +24,125 @@
     li:hover:after,
     li:focus:after {
       width: 100%;
+    }
+  }
+}
+
+.menu__btn-drop-down {
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 21px;
+    height: 29px;
+    transition: all 0.3s;
+
+    span {
+      display: flex;
+      height: 2px;
+      width: 100%;
+      background: #181b26;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.menu__btn-drop-down.menu__btn-drop-down_close {
+  div {
+    transform: translate(0px, 5px);
+    transition: all 0.3s;
+
+    span {
+      width: 103%;
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(1px, 0px);
+        transition: all 0.3s;
+      }
+      &:nth-child(2) {
+        opacity: 0;
+        transition: all 0.3s;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg) translate(11px, -10px);
+        transition: all 0.3s;
+      }
+    }
+  }
+}
+
+.btn-main_mobile {
+  display: none;
+}
+
+.menu__btn-drop-down {
+  display: none;
+  background: inherit;
+  cursor: pointer;
+}
+
+.menu__btn-drop-down-close {
+  display: none;
+  position: relative;
+  top: 6px;
+  right: 6px;
+}
+
+@media (max-width: 1050px) {
+  .menu {
+    ul {
+      gap: 25px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .menu__btn-drop-down {
+    display: flex;
+    position: absolute;
+    right: 23px;
+    top: 29px;
+    z-index: 1000;
+    background: none;
+  }
+
+  .btn-main_mobile {
+    display: flex;
+    border-radius: 0;
+  }
+
+  .btn-main_desktop {
+    display: none;
+  }
+  .menu_header {
+    ul {
+      display: flex;
+      width: 40%;
+      background-color: #f6f6f6;
+      flex-direction: column;
+      gap: 30px;
+      padding-top: 100px;
+      position: fixed;
+      right: -100%;
+      top: 0;
+      z-index: 100;
+      transition: all 0.3s ease-in-out;
+      height: 100vh;
+      li {
+        padding-left: 16px;
+        padding-top: 10px;
+        a {
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+  .menu_header {
+    ul.menu__btn-drop-down_open {
+      right: 0;
+      transition: all 0.3s ease;
     }
   }
 }
