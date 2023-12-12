@@ -1,0 +1,60 @@
+.accordion {
+  background: #fff;
+  width: 314px;
+  border-radius: 8px;
+}
+
+.accordion__content-item.flex {
+  padding: 0 16px 12px 1px;
+  gap: 16px;
+  align-items: center;
+  border-bottom: 1px solid rgba(103, 105, 124, 0.16);
+}
+
+.accordion__header.flex {
+  cursor: pointer;
+  align-items: center;
+  padding: 12px 24px;
+  transition: opacity 0.2s;
+}
+
+.accordion__header:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.accordion__header-icon {
+  margin-right: 16px;
+}
+
+.accordion__header-title {
+  margin-right: auto;
+}
+
+.accordion__icon-minus {
+  display: none;
+}
+
+.accordion__content.flex {
+  flex-direction: column;
+  max-height: 0px;
+  padding: 0px;
+  overflow: hidden;
+
+  transition: all 0.4s ease-out;
+  background-color: #fff;
+  gap: 12px;
+}
+
+.accordion__content-item {
+  transition: opacity 0.2s;
+}
+
+.accordion__content-item:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.accordion__link {
+  width: 100%;
+}

@@ -40,6 +40,24 @@ li {
   padding-right: 16px;
 }
 
+mark {
+  color: #030228;
+  background: rgb(228, 242, 248);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  font-family: "Anonymous Pro";
+  font-size: clamp(32px, 4vw + 0.8rem, 64px);
+  letter-spacing: -1.92px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 24px;
+}
+
 .gap {
   gap: 20px;
 }

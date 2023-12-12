@@ -1,0 +1,9 @@
+.tags-page__header.flex {
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: clamp(10px, -2.433rem + 8.5vw, 80px);
+}
+
+.tags-page__main {
+  gap: 48px;
+}

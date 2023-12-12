@@ -1,0 +1,13 @@
+.tag-about {
+  background: #dfe2e4;
+  border-radius: 12px;
+  padding: 20px 16px;
+}
+
+.tag-about__content.flex {
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  gap: 16px;
+}
