@@ -54,6 +54,22 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-family: "Anonymous Pro";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.72px;
+}
+
+h3 {
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.48px;
+}
+
 p {
   line-height: 24px;
 }
@@ -64,4 +80,8 @@ p {
 
 .mb-80 {
   margin-bottom: clamp(40px, 4vw + 1rem, 80px);
+}
+
+.w-247 {
+  width: 247px;
 }

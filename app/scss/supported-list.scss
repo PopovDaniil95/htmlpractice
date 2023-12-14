@@ -3,13 +3,13 @@
   padding: 16px clamp(12px, 0.575rem + 0.49vw, 16px);
   display: grid;
   grid-template-columns: repeat(6, auto);
-
   gap: 8px;
+  border-radius: 12px;
 }
 
 .supported-list__item {
   background: #d5e5ea;
-  max-width: 161px;
+
   border-radius: 4px;
 }
 
@@ -51,5 +51,40 @@
   }
   .supported-list__tab:last-child {
     border-radius: 0 0 4px 4px;
+  }
+}
+@media (max-width: 1250px) {
+  .supported-list {
+    grid-template-columns: repeat(5, auto);
+  }
+}
+
+@media (max-width: 1150px) {
+  .supported-list {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media (max-width: 1000px) {
+  .supported-list {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (max-width: 700px) {
+  .supported-list {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media (max-width: 600px) {
+  .supported-list {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (max-width: 475px) {
+  .supported-list {
+    grid-template-columns: repeat(2, auto);
   }
 }

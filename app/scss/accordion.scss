@@ -2,6 +2,7 @@
   background: #fff;
   width: 314px;
   border-radius: 8px;
+  margin-bottom: 50px;
 }
 
 .accordion__content-item.flex {
@@ -57,4 +58,11 @@
 
 .accordion__link {
   width: 100%;
+}
+
+@media (max-width: 700px) {
+  .accordion {
+    width: 100%;
+    margin-bottom: 0;
+  }
 }

@@ -5,5 +5,22 @@
 }
 
 .tags-page__main {
-  gap: 48px;
+  gap: clamp(16px, -0.398rem + 3.88vw, 48px);
+}
+
+.tags-page__main-right {
+  flex-direction: column;
+  gap: clamp(30px, 1.613rem + 0.73vw, 36px);
+  margin-bottom: clamp(40px, 4vw + 1rem, 80px);
+}
+
+@media (max-width: 700px) {
+  .tags-page__header.flex {
+    margin-top: 18px;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .tags-page__main.flex {
+    flex-direction: column;
+  }
 }
